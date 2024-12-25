@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-black navbar-dark navbar1">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <span class="navbar-brand-firstname">Abdullah</span>
+            Sultan<span class="navbar-brand-dot">.</span>
+          </a>
+
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainMenu"
+          >
+            <i class="navbar-toggler-icon"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav ms-auto">
+              <li><a href="#" class="nav-link">Home</a></li>
+              <li><a href="#about" class="nav-link">About Me</a></li>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#services" class="nav-link">Services</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="banner container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="banner-main-img">
+              <div class="banner-main-img-upper-border"></div>
+              <img
+                src="img/profile.jpeg"
+                alt="banner-img"
+                width="280px"
+                height="560px"
+              />
+              <div class="banner-main-img-lower-border"></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="banner-text">
+              <h4 class="banner-text-header-top">Hi, I'm</h4>
+              <h1 class="banner-text-header">Abdullah Sultan</h1>
+              <h3 class="banner-text-header-bottom">
+                Full-Stack Web Developer
+              </h3>
+              <p class="banner-text-paragraph">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
+                ab distinctio nisi tempora, recusandae impedit. Aliquid
+                provident perspiciatis laudantium dolores.
+              </p>
+              <button class="btn btn-outline-warning">
+                <a
+                  href="files/Abdullah Sultan (Sujon) CV.pdf"
+                  download=""
+                  class="btn-link" target="_blank"
+                >
+                  <i class="fa fa-download" ></i> Download CV
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="container about my-5" id="about">
+        <div class="main-title">
+          <h2>About <span>me</span><span class="bg-text">About me</span></h2>
+        </div>
+        <div class="about-container">
+          <div class="left-about">
+            <h4>Information About me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              labore nihil obcaecati consequatur. Debitis error doloremque, vero
+              eos vel nemo eius voluptatem dicta tenetur modi. <br />
+              <br />
+              La musica delectus dolore fugiat exercitationem a, ipsum quidem
+              quo enim natus accusamus labore dolores nam. Unde. Lorem ipsum
+              dolor sit amet consectetur, adipisicing elit. Harum non
+              necessitatibus deleniti eum soluta.
+            </p>
+            <div class="">
+              <button class="btn btn-outline-warning">
+                <a href="#myModal" class="btn-link" data-bs-toggle="modal"
+                  >Know More</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="right-about">
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">4+</p>
+                <p class="small-text">
+                  Projects <br />
+                  Completed
+                </p>
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text"></p>
+                <p class="small-text">
+                  Fresher <br />
+                </p>
+              </div>
+            </div>
+            <!-- <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">300+</p>
+                <p class="small-text">
+                  <br />
+                </p>
+              </div>
+            </div> -->
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">3+</p>
+                <p class="small-text">
+                  On Going <br />
+                  Projects
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <h4 class="stat-title">My Skills</h4>
+          <div class="progress-bars">
+            <div class="progress-bar">
+              <p class="prog-title">html5</p>
+              <div class="progress-con">
+                <p class="prog-text">90%</p>
+                <div class="progress">
+                  <span class="html"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">css3</p>
+              <div class="progress-con">
+                <p class="prog-text">80%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">javascript</p>
+              <div class="progress-con">
+                <p class="prog-text">45%</p>
+                <div class="progress">
+                  <span class="js"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Bootstrap</p>
+              <div class="progress-con">
+                <p class="prog-text">75%</p>
+                <div class="progress">
+                  <span class="bootstrap"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">PHP</p>
+              <div class="progress-con">
+                <p class="prog-text">60%</p>
+                <div class="progress">
+                  <span class="php"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Laravel</p>
+              <div class="progress-con">
+                <p class="prog-text">72%</p>
+                <div class="progress">
+                  <span class="laravel"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4 class="stat-title">My Timeline</h4>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">2013 - 2016</p>
+            <h5>SSC<span> - Sondail High School</span></h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              quasi vero fugit.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">2016 - 2018</p>
+            <h5>HSC<span> -Noakhali Science and Commerce College</span></h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              quasi vero fugit.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">2019 - 2024</p>
+            <h5>CSE Degree<span> - Daffodil Institute of IT</span></h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              quasi vero fugit.
+            </p>
+          </div>
+         
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">2023</p>
+            <h5>PHP With Laravel Framework<span> - SEIP BITM</span></h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              quasi vero fugit.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container project my-5" id="projects">
+        <div class="main-title">
+          <h2>My <span>Work</span><span class="bg-text">My Work</span></h2>
+        </div>
+        <p class="proj-text">
+          Here is some of my work that I've done in various programming
+          languages.
+        </p>
+        <div class="projects">
+          <div class="project-item">
+            <div class="image">
+              <img src="img/p1.PNG" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="https://github.com/Abdullah-Sultan78" class="icon" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abdullah-sultan4/" class="icon" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="image">
+              <img src="img/p2.PNG" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="https://github.com/Abdullah-Sultan78" class="icon" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="www.linkedin.com/in/abdullah-sultan4" class="icon" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="image">
+              <img src="img/p3.PNG" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="https://github.com/Abdullah-Sultan78" class="icon" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="www.linkedin.com/in/abdullah-sultan4" class="icon" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service my-5" id="services">
+        <div class="main-title">
+          <h2>
+            MY <span>Services</span><span class="bg-text">My Services</span>
+          </h2>
+        </div>
+        <p class="proj-text">
+          Here is some of my Services that I am offering with quality assurance.
+        </p>
+        <div class="container">
+          <div class="card">
+            <img src="img/web-design.png" alt="car" />
+            <div class="intro">
+              <h1>Web Design</h1>
+              <p>
+                In this <span>Web Design</span> service Lorem ipsum dolor sit,
+                amet consectetur adipisicing elit. Exercitationem debitis error
+                magnam alias saepe quis!
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/web-development.webp" alt="car" />
+            <div class="intro">
+              <h1>Web Development</h1>
+              <p>
+                In this <span>Web Development</span> service Lorem ipsum dolor
+                sit, amet consectetur adipisicing elit. Exercitationem debitis
+                error magnam alias saepe quis!
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/bug-fixing.png" alt="car" />
+            <div class="intro">
+              <h1>Bug Fixing</h1>
+              <p>
+                In this <span>Bug Fixing</span> service Lorem ipsum dolor sit,
+                amet consectetur adipisicing elit. Exercitationem debitis error
+                magnam alias saepe quis!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+   
+      <section class="container contact my-5" id="contact">
+        <div class="contact-container">
+          <div class="main-title mb-5">
+            <h2>Reach <span>Me</span><span class="bg-text">Reach Me</span></h2>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 col-w-1320-l">
+              <div class="">
+                <ul class="nav nav-tabs">
+                  <li>
+                    <a
+                      href="#me"
+                      class="nav-link active contact-nav-tab"
+                      data-bs-toggle="tab"
+                      >Myself</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#manager"
+                      class="nav-link contact-nav-tab"
+                      data-bs-toggle="tab"
+                      >Manager</a
+                    >
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="me">
+                    <div class="left-contact">
+                      <div class="contact-info">
+                        <div class="contact-img mb-3">
+                          <img
+                            src="img/ab.jpg"
+                            alt=""
+                            width="100px"
+                            height="100px"
+                          />
+                        </div>
+
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-user"></i>
+                            <span>Name :</span>
+                          </div>
+                          <p>Abdullah Sultan</p>
+                        </div>
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Location :</span>
+                          </div>
+                          <p>Dhaka, Bangladesh</p>
+                        </div>
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email :</span>
+                          </div>
+                          <p>
+                            <span>abdullah190078@diit.edu.bd</span>
+                          </p>
+                        </div>
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Education :</span>
+                          </div>
+                          <p>
+                            <span>Daffodil Institute of IT</span>
+                          </p>
+                       
+                       
+                       
+                        </div>
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Mobile Number :</span>
+                          </div>
+                          <p>
+                            <span>+880 1879997224</span>
+                          </p>
+                        </div>
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-globe-africa"></i>
+                            <span>Languages :</span>
+                          </div>
+                          <p>
+                            <span>Bangla, English, Hindi</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="contact-icons">
+                        <div class="contact-icon">
+                          <a href="#" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                          </a>
+                          <a href="#" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="https://github.com/Abdullah-Sultan78" target="_blank">
+                            <i class="fab fa-github"></i>
+                          </a>
+                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade show" id="manager">
+                    <div class="left-contact">
+                      <div class="contact-info">
+                        <div class="contact-img mb-3">
+                          <img
+                            src="img/ab.jpg"
+                            alt=""
+                            width="100px"
+                            height="100px"
+                          />
+                        </div>
+
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-user"></i>
+                            <span>Name :</span>
+                          </div>
+                          <p>Abdullah</p>
+                        </div>
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Location :</span>
+                          </div>
+                          <p>Dhaka, Bangladesh</p>
+                        </div>
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email :</span>
+                          </div>
+                          <p>
+                            <span>manager@gmail.com</span>
+                          </p>
+                        </div>
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Education :</span>
+                          </div>
+                          <p>
+                            <span>Daffodil Institute of IT, Dhaka</span>
+                          </p>
+                        </div>
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Mobile Number :</span>
+                          </div>
+                          <p>
+                            <span>+880 1879997224</span>
+                          </p>
+                        </div>
+                        <div class="contact-item">
+                          <div class="icon">
+                            <i class="fas fa-globe-africa"></i>
+                            <span>Languages :</span>
+                          </div>
+                          <p>
+                            <span>Bangla, English, Hindi</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="contact-icons">
+                        <div class="contact-icon">
+                          <a href="#" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                          </a>
+                          <a href="#" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="https://github.com/Abdullah-Sultan78" target="_blank">
+                            <i class="fab fa-github"></i>
+                          </a>
+                    
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 col-w-1320-r">
+              <div class="right-contact mt-5">
+                <form action="" class="contact-form">
+                  <div class="input-control i-c-2">
+                    <input type="text" required placeholder="YOUR NAME" />
+                    <input type="email" required placeholder="YOUR EMAIL" />
+                  </div>
+                  <div class="input-control">
+                    <input type="text" required placeholder="ENTER SUBJECT" />
+                  </div>
+                  <div class="input-control">
+                    <textarea
+                      name=""
+                      id=""
+                      cols="15"
+                      rows="8"
+                      placeholder="Message Here..."
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <a href="#msgModal" data-bs-toggle="modal"
+                      ><input type="submit" class="btn btn-outline-warning"
+                    /></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 f-left">
+            <p>&copy; All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6 f-right">
+            <p>Design & Developed By Abdullah Sultan</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade my-mod" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content my-mod-content">
+          <div class="modal-header">
+            <h3>Bio-Data</h3>
+            <button
+              type="button"
+              class="btn-close my-mod-btn bg-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <img
+                class="my-mod-img"
+                src="img/ab.jpg"
+                alt="profile-pic"
+              />
+            </div>
+            <p><b>Name:</b> Abdullah Sultan</p>
+            <p><b>Father's Name:</b> Abdus Sattar</p>
+            <p><b>Mother's Name:</b> Bibi Moriam</p>
+            <p><b>Date of Birth:</b> 04/01/1999</p>
+            <p><b>Place of Birth:</b> Cumilla</p>
+            <p><b>Blood Group:</b> O+</p>
+            <p><b>Religion:</b> Islam</p>
+            <p><b>Nationality:</b> Bangladeshi</p>
+            <p><b>Marital Status:</b> Unmarried</p>
+            <p><b>Address:</b> 144/A, Abed Dhali Road, Kalabagan, Dhaka-1205.</p>
+          </div>
+          <div class="modal-footer">Thank You.</div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade my-mod" id="msgModal">
+      <div class="modal-dialog">
+        <div class="modal-content my-mod-content">
+          <div class="modal-header">
+            <h3>Form Submission Successfull</h3>
+            <button
+              type="button"
+              class="btn-close my-mod-btn bg-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>We will Contact You as soon as Possible.</h3>
+          </div>
+          <div class="modal-footer">Thank You.</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
